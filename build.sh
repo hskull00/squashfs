@@ -18,8 +18,8 @@ fi
 # Make sure we're working in the same directory as the build.sh script
 cd $(dirname `readlink  -f $0`)
 
-# Download squashfs4.3.tar.gz if it does not already exist
-if [ ! -e squashfs4.3.tar.gz ]
+# Download squashfs4.5.1.tar.gz if it does not already exist
+if [ ! -e squashfs4.5.1.tar.gz ]
 then
     wget https://downloads.sourceforge.net/project/squashfs/squashfs/squashfs4.5.1/squashfs4.5.1.tar.gz
 fi
