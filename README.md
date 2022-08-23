@@ -11,19 +11,12 @@ Additional advanced command line options have been added for testing/debugging.
 
 Very beta.
 
-Prerequisites
-=============
-
-You need a C/C++ compiler, plus the liblzma, liblzo and zlib development libraries:
-
-```bash
-$ sudo apt-get install build-essential liblzma-dev liblzo2-dev zlib1g-dev
 ```
 
 Installation
 ============
 
-The included `build.sh` script will download squashfs-tools v4.3, patch the source, then build and install `sasquatch`:
+The included `build.sh` script will download squashfs-tools v4.5.1 , patch the source, then build and install `sasquatch`:
 
 ```bash
 $ ./build.sh
