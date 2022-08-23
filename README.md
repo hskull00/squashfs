@@ -11,8 +11,6 @@ Additional advanced command line options have been added for testing/debugging.
 
 Very beta.
 
-```
-
 Installation
 ============
 
